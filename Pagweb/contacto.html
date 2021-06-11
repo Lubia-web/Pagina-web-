@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Contacto</title>
+    <link rel="stylesheet" href="css/style.css">
+    <header class="header">
+        <div class="container">
+            <div class="fila">
+                    <h1><img src="img/logo.jpg" class="logo" alt="Logo Anorak"></h1>
+            </div>  
+        </div>
+    </header>
+    
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="articulos.html">Articulos</a>
+        <a href="ubicacion.html">Ubicanos</a>
+        <a href="acerca.html">Acerca de nosotros</a>
+        <a href="contacto.html">Contactanos</a>
+    </nav>
+</head>
+<style>
+*{
+    box-sizing: border-box;
+}
+body{
+margin: 0;
+width: 100%;
+max-width: 1366px;
+font-family: 'Poppins';
+font-size: 1.56rem; 
+color: white;
+}
+
+
+/*----------------------------------------------Footer-------------------------------------------------------*/
+footer{
+margin-top: 3px;
+height: 4px;
+background:#161616;
+color:#F6F6F6; 
+font-family: 'Rubik';
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+
+/*_______________________________________________________________________________________________________________________*/  
+/*----------------------------------------------Pagina contacto-------------------------------------------------------*/
+main{
+display: flex;
+width: 100%;
+height: 35rem;
+margin-top: 2rem;
+justify-content: center;
+}
+
+#formulario{
+background: #3147a7;
+margin-right: 2rem;
+}
+
+#formulario i {
+color:#3E5F8A ;
+}
+
+#formulario h2{
+text-align: center;
+font-family: 'Yusei Magic';
+font-size: 2.5rem;
+color: #bd64c0;
+position: relative;
+
+}
+
+#formulario{
+width: 37.37rem;
+}
+
+#formulario .texto{
+margin-top: 1.31rem;
+width:80%;
+border: none;
+border-radius: 0.25rem;
+}
+
+.asunto-texto{
+margin-top: 1.31rem;
+width:50%;
+border: none;
+border-radius: 0.25rem;
+}
+
+.texto-especifique{
+margin-top: 1.31rem;
+width:85%;
+border: none;
+border-radius: 0.25rem;
+}
+
+legend{
+color: #a7aa00;
+}
+
+.asunto-estilo{
+color: #6faa00;
+}
+
+.texto-medio{
+height: 4rem;
+margin-top: 1.31rem;
+width:79%;
+border: none;
+border-radius: 0.25rem;
+
+}
+
+.boton{
+width: 4rem;
+height: 2rem;
+margin-left: 14rem;
+background-color: #3E5F8A;
+border-radius: 0.4rem;
+color: whitesmoke;
+}
+section{
+    text-align: justify;
+    font-size: 2vw;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+</style>
+<body>
+    <main>
+        <section id="formulario">
+            <h2>Envianos un mensaje</h2>
+            <form>
+                <fieldset>
+                    <legend>Contactanos llenando todos los campos</legend>
+                    <div>
+                        <label><i class="fas fa-user-circle"></i></label>
+                        <input class="texto" type="text" placeholder="Ingrese su nombre*"> 
+                    </div>
+                    <div>
+                        <label><i class="fas fa-envelope"></i></label>
+                        <input class="texto" type="email" placeholder="Ingrese su correo*"> 
+                    </div>
+                    <div>
+                        <label><i class="fas fa-mobile-alt"></i></label>
+                        <input class="texto" type="tel" placeholder="Ingrese telefono/celular opcional"> 
+                    </div>
+                    <div>
+                        <label class="asunto-estilo">Asunto</label>
+                        <input class="asunto-texto" type="text" placeholder="Seleccione uno*"> 
+                    </div>
+                    <div>
+                         <input class="texto-especifique" type="text" placeholder="Especifique:* si selecciono otro"> 
+                    </div>
+                    <div>
+                        <label><i class="fas fa-edit"></i></label>
+                        <input class="texto-medio" type="text" placeholder="Mensaje*"> 
+                    </div>
+                     <div>
+                         <input class="boton" type="submit" value="Enviar"> 
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+        
+        
+    </main>
+    <footer>
+        <div class="contenedor">
+          <p class="copy"> <br><br> </center><br>
+          </p>
+        </div>
+    </footer>
+    
+</body>
+</html>
